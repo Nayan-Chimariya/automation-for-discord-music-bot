@@ -26,6 +26,3 @@ def ocr():
     text = pytesseract.image_to_string(img)
     link = text.replace(" ", "")
     return link
-    
-
-    
